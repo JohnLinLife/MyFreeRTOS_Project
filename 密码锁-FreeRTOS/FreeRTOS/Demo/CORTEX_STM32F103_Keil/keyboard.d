@@ -1,0 +1,16 @@
+.\keyboard.o: user\Keyboard.c
+.\keyboard.o: user\Keyboard.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_it.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_lib.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_map.h
+.\keyboard.o: ..\CORTEX_STM32F103_Keil\stm32f10x_conf.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_type.h
+.\keyboard.o: .\STM32F10xFWLib\inc\cortexm3_macro.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_exti.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_nvic.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_rcc.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_spi.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_systick.h
+.\keyboard.o: .\STM32F10xFWLib\inc\stm32f10x_usart.h
+.\keyboard.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

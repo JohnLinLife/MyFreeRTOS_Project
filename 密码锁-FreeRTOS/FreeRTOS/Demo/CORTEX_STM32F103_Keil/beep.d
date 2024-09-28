@@ -1,0 +1,15 @@
+.\beep.o: user\Beep.c
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_it.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_lib.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_map.h
+.\beep.o: ..\CORTEX_STM32F103_Keil\stm32f10x_conf.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_type.h
+.\beep.o: .\STM32F10xFWLib\inc\cortexm3_macro.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_exti.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_nvic.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_rcc.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_spi.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_systick.h
+.\beep.o: .\STM32F10xFWLib\inc\stm32f10x_usart.h
+.\beep.o: user\Beep.h

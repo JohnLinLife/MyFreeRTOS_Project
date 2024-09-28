@@ -1,0 +1,2509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\lcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_adc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_bkp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_can.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_dac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_dbgmcu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_dma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_exti.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_fsmc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_iwdg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_nvic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_pwr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_rcc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_rtc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_sdio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_systick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_tim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_tim1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_usart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32f10x_wwdg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32fxxx_eth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\drivers\st\stm32f10xfwlib\src\stm32fxxx_eth_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\api\api_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\api\api_msg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\api\err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\api\sockets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\api\tcpip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\dhcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\inet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\inet6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\memp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\netif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\pbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\stats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\sys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\tcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\tcp_in.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\tcp_out.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\udp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\ipv4\icmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\ipv4\ip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\ipv4\ip_addr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\ipv4\ip_frag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\snmp\asn1_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\snmp\asn1_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\snmp\mib2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\snmp\mib_structs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\snmp\msg_in.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\core\snmp\msg_out.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\etharp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ethernetif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\loopif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\slipif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\auth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\chap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\chpms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\fsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\ipcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\lcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\magic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\pap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\ppp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\randm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip\netif\ppp\vj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\ethernetif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\SP605_PHY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\sys_arch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\ports\win32\ethernetif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\ports\win32\sys_arch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\arch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\api_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\api_msg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\netbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\netdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\netifapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\sockets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\api\tcpip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\def.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\dhcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\dns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\lwip_timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\memp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\netif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\pbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\stats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\sys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\tcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\tcp_in.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\tcp_out.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\udp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\autoip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\icmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\igmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\inet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\inet_chksum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\ip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\ip_addr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv4\ip_frag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv6\icmp6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv6\inet6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv6\ip6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\ipv6\ip6_addr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\snmp\asn1_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\snmp\asn1_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\snmp\mib2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\snmp\mib_structs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\snmp\msg_in.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\core\snmp\msg_out.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\etharp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ethernetif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\slipif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\auth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\chap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\chpms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\fsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\ipcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\lcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\magic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\pap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\ppp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\ppp_oe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\randm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\vj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\BlockQ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\comtest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\death.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\dynamic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\events.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\flop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\PollQ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\full\semtest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\AbortDelay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\BlockQ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\blocktim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\comtest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\comtest_strings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\countsem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\death.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\dynamic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\EventGroupsDemo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\flash_timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\flop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\GenQTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\IntQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\IntSemTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\MessageBufferAMP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\MessageBufferDemo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\PollQ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\QPeek.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\QueueOverwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\QueueSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\QueueSetPolling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\recmutex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\semtest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\sp_flop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\StaticAllocation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\StreamBufferDemo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\StreamBufferInterrupt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\TaskNotify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\TaskNotifyArray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\common\minimal\TimerDemo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\spi_flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\timertest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\partest\ParTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\serial\serial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\lcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_adc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_bkp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_can.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_dma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_exti.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_iwdg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_nvic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_pwr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_rcc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_rtc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_systick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_tim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_tim1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_usart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\src\stm32f10x_wwdg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\croutine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\event_groups.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stream_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tasks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\portable\memmang\heap_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\portable\memmang\heap_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\portable\memmang\heap_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\portable\memmang\heap_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\portable\memmang\heap_5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\portable\rvds\arm_cm3\port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\cbmcstublibrary\tasksStubs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\prvcopydatatoqueue\prvCopyDataToQueue_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\prvnotifyqueuesetcontainer\prvNotifyQueueSetContainer_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\prvunlockqueue\prvUnlockQueue_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuecreatecountingsemaphore\QueueCreateCountingSemaphore_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuecreatecountingsemaphorestatic\QueueCreateCountingSemaphoreStatic_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuecreatemutex\QueueCreateMutex_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuecreatemutexstatic\QueueCreateMutexStatic_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegenericcreate\QueueGenericCreate_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegenericcreatestatic\QueueGenericCreateStatic_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegenericreset\QueueGenericReset_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegenericsend\QueueGenericSend_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegenericsendfromisr\QueueGenericSendFromISR_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegetmutexholder\QueueGetMutexHolder_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegetmutexholderfromisr\QueueGetMutexHolderFromISR_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegivefromisr\QueueGiveFromISR_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuegivemutexrecursive\QueueGiveMutexRecursive_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuemessageswaiting\QueueMessagesWaiting_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuepeek\QueuePeek_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuereceive\QueueReceive_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuereceivefromisr\QueueReceiveFromISR_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuesemaphoretake\QueueSemaphoreTake_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuespacesavailable\QueueSpacesAvailable_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\queue\queuetakemutexrecursive\QueueTakeMutexRecursive_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskcheckfortimeout\TaskCheckForTimeOut_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskcreate\TaskCreate_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskdelay\TaskDelay_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskdelete\TaskDelete_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskgetcurrenttaskhandle\TaskGetCurrentTaskHandle_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskgetschedulerstate\TaskGetSchedulerState_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskgettasknumber\TaskGetTaskNumber_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskgettickcount\TaskGetTickCount_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskincrementtick\TaskIncrementTick_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskpriorityset\TaskPrioritySet_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskresumeall\TaskResumeAll_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\tasksettimeoutstate\TaskSetTimeOutState_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskstartscheduler\TaskStartScheduler_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\tasksuspendall\TaskSuspendAll_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\task\taskswitchcontext\TaskSwitchContext_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cbmc\proofs\utility\memory_assignments.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\make_example\src\foo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\make_example\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\make_example\test\test_foo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\make_example\test\test_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\AdcConductor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\AdcHardware.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\AdcHardwareConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\AdcModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\AdcTemperatureSensor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\Executor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\IntrinsicsWrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\Model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TaskScheduler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TemperatureCalculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TemperatureFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TimerConductor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TimerConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TimerHardware.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TimerInterruptConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TimerInterruptHandler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\TimerModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\UsartBaudRateRegisterCalculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\UsartConductor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\UsartConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\UsartHardware.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\UsartModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\UsartPutChar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\src\UsartTransmitBufferStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestAdcConductor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestAdcHardware.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestAdcHardwareConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestAdcModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestAdcTemperatureSensor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestExecutor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTaskScheduler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTemperatureCalculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTemperatureFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTimerConductor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTimerConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTimerHardware.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTimerInterruptConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTimerInterruptHandler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestTimerModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestUsartBaudRateRegisterCalculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestUsartConductor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestUsartConfigurator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestUsartHardware.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestUsartModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestUsartPutChar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\examples\temp_sensor\test\TestUsartTransmitBufferStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\src\cmock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\test\c\TestCMockC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\test\c\TestCMockCDynamic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\test\c\TestCMockCDynamic_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\test\c\TestCMockC_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\test\iar\iar_v4\srciar\Cstartup_SAM7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\test\iar\iar_v5\srciar\Cstartup_SAM7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\c_exception\lib\CException.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\c_exception\test\TestException.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_1\src\ProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_1\src\ProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_1\test\TestProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_1\test\TestProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_1\test\test_runners\TestProductionCode2_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_1\test\test_runners\TestProductionCode_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_2\src\ProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_2\src\ProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_2\test\TestProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_2\test\TestProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_2\test\test_runners\all_tests.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_2\test\test_runners\TestProductionCode2_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_2\test\test_runners\TestProductionCode_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_3\helper\UnityHelper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_3\src\ProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_3\src\ProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_3\test\TestProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_3\test\TestProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_4\src\ProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_4\src\ProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_4\test\TestProductionCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_4\test\TestProductionCode2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_4\test\test_runners\TestProductionCode2_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\examples\example_4\test\test_runners\TestProductionCode_Runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\fixture\src\unity_fixture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\fixture\test\template_fixture_tests.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\fixture\test\unity_fixture_Test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\fixture\test\unity_fixture_TestRunner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\fixture\test\main\AllTests.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\memory\src\unity_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\memory\test\unity_memory_Test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\memory\test\unity_memory_TestRunner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\extras\memory\test\unity_output_Spy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\src\unity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_def.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_head1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_def.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_head1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_new1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_new2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_param.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_run1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_run2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_yaml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_new1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_new2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_param.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_run1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_run2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_yaml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\testdata\testRunnerGenerator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\testdata\testRunnerGeneratorSmall.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\testdata\testRunnerGeneratorWithMocks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_arrays.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_doubles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_floats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_integers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_integers_64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_parameterized.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\cmock\vendor\unity\test\tests\test_unity_strings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\event_groups\event_groups_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\list\list_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\message_buffer\message_buffer\message_buffer_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\message_buffer\size_mismatch\message_buffer_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\queue_utest_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\td_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\td_task.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\dynamic\queue_create_dynamic_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\dynamic\queue_delete_dynamic_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_create_dynamic_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_create_static_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_delete_dynamic_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_delete_static_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_receive_blocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_receive_nonblocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_reset_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_send_blocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_send_nonblocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\generic\queue_status_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\semaphore\binary_semaphore_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\semaphore\counting_semaphore_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\semaphore\mutex_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\semaphore\recursive_mutex_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\semaphore\semaphore_common_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\semaphore\semaphore_create_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\binary_semaphore_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\mutex_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\queue_in_set_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\queue_receive_blocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\queue_receive_nonblocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\queue_send_blocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\queue_send_nonblocking_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\queue_set_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\queue_unlock_cascaded_set_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\sets\semaphore_in_set_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\static\queue_create_static_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\static\queue_delete_static_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\tracing\queue_delete_dynamic_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\tracing\queue_delete_static_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\tracing\queue_registry_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\queue\tracing\queue_trace_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\stream_buffer\api\stream_buffer_api_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\stream_buffer\callback\stream_buffer_callback_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\tasks\tasks_1_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\tasks\tasks_2_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\timers\timers_1_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cmock\timers\timers_dynamic_utest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\list\listLIST_IS_EMPTY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\list\uxListRemove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\list\vListInitialise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\list\vListInitialiseItem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\list\vListInsert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\list\vListInsertEnd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\create.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\prvCopyDataFromQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\prvCopyDataToQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\prvIsQueueEmpty.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\prvIsQueueFull.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\prvLockQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\prvUnlockQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\uxQueueMessagesWaiting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\uxQueueSpacesAvailable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\vQueueDelete.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueueGenericSend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueueGenericSendFromISR.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueueIsQueueEmptyFromISR.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueueIsQueueFullFromISR.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueuePeek.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueuePeekFromISR.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueueReceive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\verifast\queue\xQueueReceiveFromISR.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\cortexm3_macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\lcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\spi_flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_adc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_bkp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_can.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_dac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_dbgmcu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_dma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_exti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_fsmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_gpio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_it.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_iwdg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_nvic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_pwr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_rcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_rtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_sdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_systick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_tim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_tim1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_usart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32f10x_wwdg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32fxxx_eth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32fxxx_eth_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32fxxx_eth_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\drivers\st\stm32f10xfwlib\inc\stm32fxxx_eth_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\ipv4\lwip\icmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\ipv4\lwip\inet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\ipv4\lwip\ip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\ipv4\lwip\ip_addr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\ipv4\lwip\ip_frag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\api_msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\dhcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\memp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\netif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\pbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\sio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\snmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\snmp_asn1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\snmp_msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\snmp_structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\sockets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\tcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\tcpip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\lwip\udp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\netif\etharp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\netif\loopif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\include\netif\slipif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\auth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\chap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\chpms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\fsm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\ipcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\lcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\magic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\pap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\ppp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\pppdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\randm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\vj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip\netif\ppp\vjbsdhdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\include\arch\bpstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\include\arch\cc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\include\arch\epstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\include\arch\perf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\microblaze-ethernet-lite\include\arch\sys_arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\lwipcfg_msvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\include\arch\bpstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\include\arch\cc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\include\arch\epstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\include\arch\perf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\include\arch\sys_arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\bittypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\ip6_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\netif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\Packet32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\PacketData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap-bpf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap-namedb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap-stdinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\remote-ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\Win32-Extensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap\bluetooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap\bpf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap\namedb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap\sll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap\usb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\ports\win32\winpcap\pcap\vlan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\autoip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\icmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\igmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\inet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\inet_chksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\ip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\ip_addr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv4\lwip\ip_frag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv6\lwip\icmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv6\lwip\inet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv6\lwip\ip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\ipv6\lwip\ip_addr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\api_msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\dhcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\dns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\memp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\memp_std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\netbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\netdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\netif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\netifapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\opt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\pbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\sio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\snmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\snmp_asn1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\snmp_msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\snmp_structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\sockets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\tcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\tcpip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\tcp_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\timers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\lwip\udp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\netif\etharp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\netif\ppp_oe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\include\netif\slipif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\auth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\chap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\chpms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\fsm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\ipcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\lcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\magic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\pap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\ppp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\pppdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\randm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\ethernet\lwip-1.4.0\src\netif\ppp\vj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\AbortDelay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\BlockQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\blocktim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\comtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\comtest2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\comtest_strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\countsem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\death.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\EventGroupsDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\fileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\flash_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\flop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\GenQTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\IntQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\IntSemTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\MessageBufferAMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\MessageBufferDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\mevents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\partest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\PollQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\QPeek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\QueueOverwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\QueueSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\QueueSetPolling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\recmutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\semtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\StaticAllocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\StreamBufferDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\StreamBufferInterrupt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\TaskNotify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\TaskNotifyArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\common\include\TimerDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\LCD_Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10x_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\cortexm3_macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\lcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\spi_flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_adc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_bkp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_can.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_dma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_exti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_gpio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_it.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_iwdg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_nvic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_pwr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_rcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_rtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_systick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_tim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_tim1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_usart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\cortex_stm32f103_keil\stm32f10xfwlib\inc\stm32f10x_wwdg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\croutine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\deprecated_definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\event_groups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\FreeRTOS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\message_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\mpu_prototypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\mpu_wrappers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\portable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\projdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\semphr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\StackMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\stack_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\stream_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\timers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\portable\rvds\arm_cm3\portmacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\include\aws_freertos_ip_verification_access_ip_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\include\aws_freertos_tcp_verification_access_tcp_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\include\cbmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\include\portmacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\include\queue_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\include\tasksStubs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\patches\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\patches\FreeRTOSIPConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskcheckfortimeout\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskcreate\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskdelay\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskdelete\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskgetcurrenttaskhandle\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskgetschedulerstate\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskgettasknumber\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskincrementtick\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskpriorityset\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskresumeall\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskstartscheduler\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\proofs\task\taskswitchcontext\tasks_test_access_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\windows\direct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\windows\winbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cbmc\windows\windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\make_example\src\foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\AdcConductor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\AdcHardware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\AdcHardwareConfigurator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\AdcModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\AdcTemperatureSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\AT91SAM7X256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\Executor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\IntrinsicsWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\ModelConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TaskScheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TemperatureCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TemperatureFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TimerConductor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TimerConfigurator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TimerHardware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TimerInterruptConfigurator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TimerInterruptHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\TimerModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\UsartBaudRateRegisterCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\UsartConductor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\UsartConfigurator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\UsartHardware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\UsartModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\UsartPutChar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\examples\temp_sensor\src\UsartTransmitBufferStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\src\cmock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\src\cmock_internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v4\inciar\AT91SAM7X-EK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v4\inciar\AT91SAM7X256_inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v4\inciar\ioat91sam7x256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v4\inciar\lib_AT91SAM7X256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v5\inciar\AT91SAM7X-EK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v5\inciar\AT91SAM7X256_inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v5\inciar\lib_AT91SAM7X256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\iar\iar_v5\inciar\project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\system\test_compilation\callingconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\system\test_compilation\const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\system\test_compilation\inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\system\test_compilation\osek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\test\system\test_compilation\parsing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\c_exception\lib\CException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\c_exception\test\support\CExceptionConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\unity_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_1\src\ProductionCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_1\src\ProductionCode2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_2\src\ProductionCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_2\src\ProductionCode2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_3\helper\UnityHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_3\src\ProductionCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_3\src\ProductionCode2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_4\src\ProductionCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\examples\example_4\src\ProductionCode2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\extras\fixture\src\unity_fixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\extras\fixture\src\unity_fixture_internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\extras\memory\src\unity_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\extras\memory\test\unity_output_Spy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\src\unity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\src\unity_internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_head1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\test\expectdata\testsample_mock_head1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\test\testdata\CException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\test\testdata\cmock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\test\testdata\Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\test\testdata\mockMock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\cmock\vendor\unity\test\tests\self_assessment_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\config\fake_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\config\fake_port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\config\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\config\portmacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\event_groups\list_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\message_buffer\size_mismatch\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\queue\queue_utest_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\queue\dynamic\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\queue\generic\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\queue\semaphore\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\queue\sets\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\queue\static\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\queue\tracing\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\stream_buffer\api\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\stream_buffer\callback\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\tasks\FreeRTOSConfig_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\tasks\FreeRTOSConfig_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\tasks\global_vars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\tasks\list_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\timers\FreeRTOSConfig_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\timers\FreeRTOSConfig_dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\timers\global_vars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cmock\timers\list_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\verifast\include\proof\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\verifast\include\proof\queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\verifast\include\proof\queuecontracts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\cmock\cmock\test\iar\iar_v4\inciar\AT91SAM7X256.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="demo\cortex_stm32f103_keil\RTOSDemo.build_log.htm" />
+    <None Include="demo\cortex_stm32f103_keil\RTOSDemo.htm" />
+  </ItemGroup>
+</Project>

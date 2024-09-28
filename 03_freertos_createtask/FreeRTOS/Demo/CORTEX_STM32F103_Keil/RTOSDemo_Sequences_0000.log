@@ -1,0 +1,39 @@
+/*
+ *  CMSIS Pack Debug Access Sequence Log
+ *  File        : E:\keil32project\0-0 RTOS_File\03_freertos_createtask\FreeRTOS\Demo\CORTEX_STM32F103_Keil\RTOSDemo_Sequences_0000.log
+ *  Created     : 18:37:16 (25/01/2024)
+ *  Device      : STM32F103RC
+ *  PDSC File   : C:\Users\aa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Keil.STM32F1xx_DFP.pdsc
+ *  Config File : E:\keil32project\0-0 RTOS_File\03_freertos_createtask\FreeRTOS\Demo\CORTEX_STM32F103_Keil\DebugConfig\Target_1_STM32F103RC_1.0.0.dbgconf
+ *
+ */
+
+[18:37:16.915]  **********  Sequence "DebugCoreStart"  (Context="Connect", Pname="", info="")
+[18:37:16.915]  
+[18:37:16.916]  <debugvars>
+[18:37:16.916]    // Pre-defined
+[18:37:16.918]    __protocol=0x00010002      (Protocol="SWD", SWJ-DP="True")
+[18:37:16.918]    __connection=0x00000202    (Connection Type="Flash", Reset Type="System Reset")
+[18:37:16.919]    __dp=0x00000000
+[18:37:16.919]    __ap=0x00000000
+[18:37:16.919]    __traceout=0x00000000      (Trace Disabled)
+[18:37:16.919]    __errorcontrol=0x00000000  (Skip Errors="False")
+[18:37:16.919]    __FlashAddr=0x00000000
+[18:37:16.919]    __FlashLen=0x00000000
+[18:37:16.919]    __FlashArg=0x00000000
+[18:37:16.921]    __FlashOp=0x00000000
+[18:37:16.921]    __Result=0x00000000
+[18:37:16.921]    
+[18:37:16.921]    // User-defined
+[18:37:16.921]    DbgMCU_CR=0x00000007
+[18:37:16.921]  </debugvars>
+[18:37:16.921]  
+[18:37:16.922]  <sequence name="DebugCoreStart" Pname="" disable="false" info="">
+[18:37:16.922]    <block atomic="false" info="">
+[18:37:16.922]      Write32(0xE000EDF0, 0xA05F0001);                                        // Enable Core Debug via DHCSR
+[18:37:16.923]        // -> [Write32(0xE000EDF0, 0xA05F0001)]   (__dp=0x00000000, __ap=0x00000000)
+[18:37:16.923]      Write32(0xE0042004, DbgMCU_CR);                                         // DBGMCU_CR: Configure MCU Debug
+[18:37:16.923]        // -> [Write32(0xE0042004, 0x00000007)]   (__dp=0x00000000, __ap=0x00000000)
+[18:37:16.924]    </block>
+[18:37:16.924]  </sequence>
+[18:37:16.924]  

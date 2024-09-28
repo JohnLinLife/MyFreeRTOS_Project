@@ -1,0 +1,13 @@
+.\key.o: user\key.c
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_lib.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_map.h
+.\key.o: ..\CORTEX_STM32F103_Keil\stm32f10x_conf.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_type.h
+.\key.o: .\STM32F10xFWLib\inc\cortexm3_macro.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_exti.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_nvic.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_rcc.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_spi.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_systick.h
+.\key.o: .\STM32F10xFWLib\inc\stm32f10x_usart.h
